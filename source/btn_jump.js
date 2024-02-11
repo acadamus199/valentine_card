@@ -9,10 +9,10 @@ var nS = false;
 //Creating video element
 var vid = document.createElement('video');
 vid.src = 'source/conf.mp4';
-vid.autoplay = true;
 vid.preload = "auto";
 document.getElementById("middle").appendChild(vid);
 
+vid.play();
 waitingScreen = setInterval(() => {
     if (vid.currentTime >= 10)
         vid.currentTime = 8
