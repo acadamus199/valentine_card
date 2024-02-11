@@ -1,0 +1,21 @@
+.main input[type="button"] {
+    cursor: pointer;
+    border: 3px solid #331C2C;
+    border-radius: 20%;
+    font-size: 25px;
+    background-color: #F8F4EC;
+    transition: 0.3s;
+}
+
+.main input[type="button"]:hover {
+    border-radius: 20% 0% 20% 0%;
+    font-size: 27px;
+}
+
+#accept_button:hover {
+    color: #D63484;
+}
+
+#decline_button:hover {
+    color: #402B3A;
+}
