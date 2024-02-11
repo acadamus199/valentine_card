@@ -10,6 +10,7 @@ var nS = false;
 var vid = document.createElement('video');
 vid.src = 'source/conf.mp4';
 vid.preload = "auto";
+vid.muted = true;
 document.getElementById("middle").appendChild(vid);
 
 vid.play();
