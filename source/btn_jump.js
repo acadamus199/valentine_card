@@ -50,7 +50,7 @@ function acceptBtnFunction() {
     }, 1000);
     btn_accept.style.visibility = "hidden";
     btn.style.visibility = "hidden";
-    var lvU = setInterval(() => { alert("I love you <3"); clearInterval(lvU); }, 4000);
+    var lvU = setInterval(() => { alert("I love you <3"); clearInterval(lvU); window.close();}, 4000);
 }
 
 //Yes button click action
